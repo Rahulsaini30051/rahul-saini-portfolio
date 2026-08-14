@@ -159,7 +159,7 @@ function App() {
               React · Next.js · Node.js · TypeScript · GenAI
             </motion.p>
             <motion.p className="hero-text" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .22 }}>
-              5.7+ years building scalable, high-performance web applications and AI-powered experiences with a strong focus on clean architecture, performance and maintainability.
+              7+ years building scalable, high-performance web applications and AI-powered experiences with a strong focus on clean architecture, performance and maintainability.
             </motion.p>
             <div className="hero-actions">
               <button className="primary-btn" onClick={() => go("projects")}>View Projects <ArrowUpRight size={18} /></button>
