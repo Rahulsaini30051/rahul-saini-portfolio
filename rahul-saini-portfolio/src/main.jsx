@@ -206,7 +206,7 @@ function App() {
             <div className="code-card">
               <div className="window-dots"><i /><i /><i /></div>
               <pre>{`const developer = {
-  experience: "5.7+ years",
+  experience: "7+ years",
   stack: ["React", "Next.js",
     "Node", "MongoDB"],
   focus: ["Performance",
@@ -233,7 +233,7 @@ developer.build();`}</pre>
               <div className="code-head"><span /><span /><span /><label>rahul.config.js</label></div>
               <pre><span className="pink">export const</span> <span className="blue">rahul</span> = {'{'}
 {"\n  "}role: <span className="green">"Senior Full-Stack Developer"</span>,
-{"\n  "}experience: <span className="orange">5.7</span>,
+{"\n  "}experience: <span className="orange">7+</span>,
 {"\n  "}specialties: [
 {"\n    "}<span className="green">"React / Next.js"</span>,
 {"\n    "}<span className="green">"Node / Express / MongoDB"</span>,
@@ -304,7 +304,7 @@ developer.build();`}</pre>
 
         <section className="stats section">
           <div className="glass stats-inner">
-            <div><strong>5.7+</strong><span>Years Experience</span></div>
+            <div><strong>7+</strong><span>Years Experience</span></div>
             <div><strong>4</strong><span>Featured Projects</span></div>
             <div><strong>25%</strong><span>Bug Reduction</span></div>
             <div><strong>AI</strong><span>LLM / GenAI</span></div>
