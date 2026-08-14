@@ -13,9 +13,9 @@ const profile = {
   name: "Rahul Saini",
   title: "Senior Full-Stack Developer",
   subtitle: "React · Next.js · Node.js · TypeScript · GenAI",
-  email: "your.email@example.com",
+  email: "sainir30051@gmail.com",
   github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "www.linkedin.com/in/rahul-saini-8a4a34161",
   resume: "/Rahul-Saini-Resume.pdf"
 };
 
