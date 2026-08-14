@@ -6,6 +6,7 @@ import {
   Terminal, X, Zap, ChevronRight
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import rahulPhoto from "./rahulPhoto.png";
 import "./styles.css";
 
 const profile = {
@@ -176,6 +177,32 @@ function App() {
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
             <div className="glow" />
+
+            <div
+              className="profile-photo"
+              style={{
+                width: "280px",
+                height: "280px",
+                borderRadius: "50%",
+                overflow: "hidden",
+                border: "4px solid rgba(255,255,255,.18)",
+                boxShadow: "0 20px 60px rgba(0,0,0,.35)",
+                position: "relative",
+                zIndex: 2
+              }}
+            >
+              <img
+                src={rahulPhoto}
+                alt="Rahul Saini"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  display: "block"
+                }}
+              />
+            </div>
+
             <div className="code-card">
               <div className="window-dots"><i /><i /><i /></div>
               <pre>{`const developer = {
