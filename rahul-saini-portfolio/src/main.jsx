@@ -225,7 +225,7 @@ developer.build();`}</pre>
           <SectionTitle eyebrow="About Me" title="Engineering with a product mindset." text="I combine frontend craftsmanship with backend experience to build reliable, scalable digital products." />
           <div className="about-grid">
             <div className="glass about-copy">
-              <p>I'm a <strong>Senior Full-Stack / MERN Developer</strong> with 5.7+ years of professional experience across enterprise web, high-traffic travel, marketplaces and CMS-driven platforms.</p>
+              <p>I'm a <strong>Senior Full-Stack / MERN Developer</strong> with 7+ years of professional experience across enterprise web, high-traffic travel, marketplaces and CMS-driven platforms.</p>
               <p>My core strength is building responsive React and Next.js applications, designing RESTful APIs with Node.js and Express, and improving real-world performance through reusable architecture, SSR/SSG, lazy loading and SEO optimization.</p>
               <p>More recently, I've worked with <strong>Generative AI, LLM APIs and prompt engineering</strong> to bring AI-powered capabilities into modern development workflows and products.</p>
             </div>
@@ -258,7 +258,7 @@ developer.build();`}</pre>
           </div>
         </section>
 
-        <section id="experience" className="section">
+        {/* <section id="experience" className="section">
           <SectionTitle eyebrow="Experience" title="5.7+ years of building." text="Production experience across enterprise, travel, marketplace and CMS-driven applications." />
           <div className="timeline">
             {experience.map((job, i) => (
@@ -275,7 +275,7 @@ developer.build();`}</pre>
               </motion.article>
             ))}
           </div>
-        </section>
+        </section> */}
 
         <section id="projects" className="section">
           <SectionTitle eyebrow="Featured Projects" title="Selected work." text="A few projects that showcase my frontend, full-stack, performance and enterprise experience." />
