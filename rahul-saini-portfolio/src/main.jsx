@@ -315,14 +315,14 @@ developer.build();`}</pre>
           <SectionTitle eyebrow="Get In Touch" title="Let's build something useful." text="Have a project, product idea or opportunity? Send a message and I'll get back to you." />
           <div className="contact-grid">
             <div className="glass contact-card">
-              <div className="contact-line"><Mail /><div><small>Email</small><a href={`mailto:${profile.email}`}>{profile.email}</a></div></div>
+              {/* <div className="contact-line"><Mail /><div><small>Email</small><a href={`mailto:${profile.email}`}>{profile.email}</a></div></div> */}
               <div className="contact-line"><MapPin /><div><small>Location</small><span>India</span></div></div>
               <div className="contact-line"><Zap /><div><small>Focus</small><span>Full-Stack · GenAI · Performance</span></div></div>
-              <div className="contact-socials">
+              {/* <div className="contact-socials">
                 <a href={profile.github} target="_blank" rel="noreferrer"><Github /></a>
                 <a href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin /></a>
                 <a href={`mailto:${profile.email}`}><Mail /></a>
-              </div>
+              </div> */}
             </div>
             <form className="glass contact-form" onSubmit={(e) => {
               e.preventDefault();
